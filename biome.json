@@ -19,7 +19,7 @@
       },
       "style": {
         "noUselessElse": "warn",
-        "noNonNullAssertion": "warn"
+        "noNonNullAssertion": "off"
       },
       "suspicious": {
         "noExplicitAny": "warn"

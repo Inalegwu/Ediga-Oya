@@ -73,7 +73,7 @@ export default function Team() {
           <img
             src={team[activeIndex!].image}
             alt={team[activeIndex!].name}
-            className="w-2/4 h-full rounded-tl-lg rounded-bl-lg"
+            className="w-2/4 h-full rounded-tl-lg rounded-bl-lg aspect-auto"
           />
           <div className="px-2 py-2 text-gray-600 font-medium prose">
             {team[activeIndex!].words}
