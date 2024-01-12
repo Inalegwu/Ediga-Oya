@@ -52,7 +52,7 @@ export const TESTIMONIALS = [
 
 export const PARTNERS = [
   {
-    name: "Rotary",
+    name: "Rotary International",
   },
   {
     name: "Chronicles Software Development Company",
@@ -61,7 +61,7 @@ export const PARTNERS = [
     name: "Portsbridge Educational Services Ltd",
   },
   {
-    name: "CSTEmp",
+    name: "CSTEmp Educational Technology",
   },
   {
     name: "Cluster4Kidz",

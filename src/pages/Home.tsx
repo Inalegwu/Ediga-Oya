@@ -101,13 +101,13 @@ export default function Home() {
           </div>
           {/* other info box */}
           <div className="w-full px-5 mt-25 py-2 space-x-4 flex items-center content-center justify-center">
-            <div className="px-4 py-4 max-w-80 cursor-pointer bg-green-100 rounded-md text-green-700 flex flex-col flex-wrap items-center content-center justify-center space-y-2 text-center">
+            <div className="px-4 py-4 max-w-80 cursor-pointer bg-green-50 rounded-md text-green-500 flex flex-col flex-wrap items-center content-center justify-center space-y-2 text-center">
               <span className="i-lucide:book" />
               <span>
                 Writing Notebooks where donated by MTN Global Communications
               </span>
             </div>
-            <div className="px-4 py-4 max-w-80 cursor-pointer bg-orange-100 rounded-md text-orange-700 flex flex-col flex-wrap items-center content-center justify-center space-y-2 text-center">
+            <div className="px-4 py-4 max-w-80 cursor-pointer bg-orange-50 rounded-md text-orange-500 flex flex-col flex-wrap items-center content-center justify-center space-y-2 text-center">
               <span className="i-lucide:laptop" />
               <span>
                 Digital Accessories where donated by Chronicles Technologies
@@ -137,13 +137,13 @@ export default function Home() {
             />
           </div>
           <div className="w-full px-5 mt-25 py-2 space-x-4 flex items-center content-center justify-center">
-            <div className="px-4 py-4 max-w-80 cursor-pointer bg-green-100 rounded-md text-green-700 flex flex-col flex-wrap items-center content-center justify-center space-y-2 text-center">
+            <div className="px-4 py-4 max-w-80 cursor-pointer bg-green-50 rounded-md text-green-500 flex flex-col flex-wrap items-center content-center justify-center space-y-2 text-center">
               <span className="i-lucide:train-track" />
               <span>
                 Done in partnership with CSTEmp Edutech and N-Power Nigeria
               </span>
             </div>
-            <div className="px-4 py-4 max-w-80 cursor-pointer bg-orange-100 rounded-md text-orange-700 flex flex-col flex-wrap items-center content-center justify-center space-y-2 text-center">
+            <div className="px-4 py-4 max-w-80 cursor-pointer bg-orange-50 rounded-md text-orange-500 flex flex-col flex-wrap items-center content-center justify-center space-y-2 text-center">
               <span className="i-lucide:credit-card" />
               <span>Monetary Prizes were donated by CSTEmp Edutech</span>
             </div>
@@ -155,12 +155,13 @@ export default function Home() {
             <span className="i-lucide:glasses text-green-500" />
             <span>The Story Behind Ediga-Oya Memorial</span>
           </h3>
-          <div className="mt-6 lg:mt-8 lg:w-2/4 leading-relaxed lg:mx-auto w-prose text-gray-500 space-y-1">
+          <div className="mt-6 lg:mt-8 lg:w-2/4 text-md leading-relaxed lg:mx-auto w-prose text-gray-500 space-y-1">
             <p>
               It had always been a dream and pet project of the Late Major Ediga
-              Okwa , a humble and generous couple from Otukpo Local Government
-              Area of Benue State , make a positive impact in the lives of the
-              children , youths and women in their rural community.
+              Okwa and his wife Late Mrs. Oya Okwa , a humble and generous
+              couple from Otukpo Local Government Area of Benue State , to make
+              a positive impact in the lives of the children , youths and women
+              in their rural community.
             </p>
             <p>
               As a result , the Ediga Oya Rays of Hope Foundation was
@@ -193,10 +194,10 @@ export default function Home() {
           </p>
           <div className="w-full px-10 mt-6 py-5 flex items-center content-center justify-center overflow-x-scroll space-x-2">
             {TESTIMONIALS.map((v) => (
-              <div className="px-10 py-5 bg-green-50 max-w-200 max-h-80 text-green-700 rounded-md flex flex-col items-center content-center justify-center space-y-1">
-                <h2 className="font-bold text-lg">{v.name}</h2>
-                <span className="font-500 text-base">{v.benefit}</span>
-                <p className="text-md font-200">{v.statement}</p>
+              <div className="px-10 py-5 bg-green-50 hover:bg-green-100 cursor-pointer max-w-200 max-h-80 text-green-700 rounded-md flex flex-col items-center content-center justify-center space-y-1">
+                <h2 className="font-bold text-base">{v.name}</h2>
+                <span className="font-500 text-md">{v.benefit}</span>
+                <p className="text-sm font-200">{v.statement}</p>
               </div>
             ))}
           </div>
@@ -216,7 +217,7 @@ export default function Home() {
           </p>
           <div className="w-full mt-6 px-10 py-5 flex space-y-4 flex-wrap items-center content-center justify-center space-x-2">
             {PARTNERS.map((v) => (
-              <div className="px-10 py-5 bg-orange-50 cursor-pointer max-w-200 max-h-80 text-orange-500 rounded-md flex flex-col items-center content-center justify-center space-y-1">
+              <div className="px-10 py-5 bg-orange-50 hover:bg-orange-100 cursor-pointer max-w-200 max-h-80 text-orange-500 rounded-md flex flex-col items-center content-center justify-center space-y-1">
                 <h2 className="font-bold text-sm">{v.name}</h2>
               </div>
             ))}

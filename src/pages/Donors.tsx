@@ -53,7 +53,7 @@ export default function Donors() {
             Donors
           </h1>
           <h2 className="text-2xl font-medium text-center mt-1 space-y-1">
-            Thanks for deciding you want to help with our efforts
+            Building the future is a lot , any help would be much appreciated
           </h2>
         </div>
       </header>
