@@ -191,12 +191,13 @@ export default function Home() {
             </span>{" "}
             <span>so we decided to share</span>
           </p>
-          <div className="w-full px-10 mt-6 py-5 flex items-center content-center justify-center overflow-x-scroll space-x-2">
+          <div className="w-full px-10 mt-12 py-5 flex items-center content-center justify-center overflow-x-scroll space-x-2">
             {TESTIMONIALS.map((v) => (
-              <div className="px-10 py-5 bg-green-50 hover:bg-green-100 cursor-pointer max-w-200 max-h-80 text-green-700 rounded-md flex flex-col items-center content-center justify-center space-y-1">
+              <div className="px-10 py-5  cursor-pointer max-w-200 max-h-80 text-green-700 rounded-md flex flex-col items-center content-center justify-center space-y-1 text-center">
+                <img src={v.image} alt={v.name} className="rounded-full" />
                 <h2 className="font-bold text-base">{v.name}</h2>
                 <span className="font-500 text-md">{v.benefit}</span>
-                <p className="text-sm font-200">{v.statement}</p>
+                <p className="text-sm font-200 text-center">{v.statement}</p>
               </div>
             ))}
           </div>
