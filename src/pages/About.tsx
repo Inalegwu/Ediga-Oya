@@ -105,7 +105,7 @@ export default function About() {
           </h3>
           <p className="mt-2 text-center flex flex-col space-y-1 w-full sm:w-3/4 mx-auto px-4 sm:px-0">
             <span className=" text-gray-500">
-              We want to give back to people who helped raised us
+              We want to give back to the community that made us who we are
             </span>
             <span className="text-green-300 italic">
               "it takes a village to raise a child"

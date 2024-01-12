@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import EandOPhoto from "../assets/images/def.png";
 import { PARTNERS, TESTIMONIALS } from "../lib/constants";
 
 export default function Home() {
@@ -94,7 +93,7 @@ export default function Home() {
           </p>
           <div className="mt-6 lg:mt-12 max-w-4xl mx-auto">
             <img
-              src={EandOPhoto}
+              src="https://placehold.co/1000x600/000000/FFF"
               alt="library_showcase"
               className="max-w-full rounded-md overflow-hidden shadow-2xl"
             />
@@ -131,7 +130,7 @@ export default function Home() {
           </p>
           <div className="mt-6 lg:mt-12 max-w-4xl mx-auto">
             <img
-              src={EandOPhoto}
+              src="https://placehold.co/1000x600/000000/FFF"
               alt="library_showcase"
               className="max-w-full rounded-md overflow-hidden shadow-2xl"
             />
