@@ -101,13 +101,13 @@ export default function Home() {
           </div>
           {/* other info box */}
           <div className="w-full px-5 mt-25 py-2 space-x-4 flex items-center content-center justify-center">
-            <div className="px-4 py-4 max-w-80 cursor-pointer bg-green-50 rounded-md text-green-500 flex flex-col flex-wrap items-center content-center justify-center space-y-2 text-center">
+            <div className="px-7 py-7 max-w-80 cursor-pointer bg-green-50 rounded-md text-green-500 flex flex-col flex-wrap items-center content-center justify-center space-y-2 text-center">
               <span className="i-lucide:book" />
               <span>
                 Writing Notebooks where donated by MTN Global Communications
               </span>
             </div>
-            <div className="px-4 py-4 max-w-80 cursor-pointer bg-orange-50 rounded-md text-orange-500 flex flex-col flex-wrap items-center content-center justify-center space-y-2 text-center">
+            <div className="px-7 py-7 max-w-80 cursor-pointer bg-orange-50 rounded-md text-orange-500 flex flex-col flex-wrap items-center content-center justify-center space-y-2 text-center">
               <span className="i-lucide:laptop" />
               <span>
                 Digital Accessories where donated by Chronicles Technologies
@@ -137,13 +137,13 @@ export default function Home() {
             />
           </div>
           <div className="w-full px-5 mt-25 py-2 space-x-4 flex items-center content-center justify-center">
-            <div className="px-4 py-4 max-w-80 cursor-pointer bg-green-50 rounded-md text-green-500 flex flex-col flex-wrap items-center content-center justify-center space-y-2 text-center">
+            <div className="px-7 py-7 max-w-80 cursor-pointer bg-green-50 rounded-md text-green-500 flex flex-col flex-wrap items-center content-center justify-center space-y-2 text-center">
               <span className="i-lucide:train-track" />
               <span>
                 Done in partnership with CSTEmp Edutech and N-Power Nigeria
               </span>
             </div>
-            <div className="px-4 py-4 max-w-80 cursor-pointer bg-orange-50 rounded-md text-orange-500 flex flex-col flex-wrap items-center content-center justify-center space-y-2 text-center">
+            <div className="px-7 py-7 max-w-80 cursor-pointer bg-orange-50 rounded-md text-orange-500 flex flex-col flex-wrap items-center content-center justify-center space-y-2 text-center">
               <span className="i-lucide:credit-card" />
               <span>Monetary prizes were donated by CSTEmp Edutech</span>
             </div>
