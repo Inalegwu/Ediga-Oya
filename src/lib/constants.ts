@@ -17,7 +17,7 @@ export const TEAM = [
   },
   {
     name: "Inalegwu Ikwue",
-    role: "Head , Information Communication Technologies",
+    role: "Head , ICT",
   },
   {
     name: "Geraldine G. Okwa",
