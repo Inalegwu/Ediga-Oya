@@ -75,9 +75,12 @@ export default function About() {
           </p>
           <div className="mt-6 lg:mt-12 max-w-4xl mx-auto flex items-center content-center justify-center flex-wrap space-x-2 space-y-4">
             {TEAM.map((v) => (
-              <div className="bg-orange-50 cursor-pointer text-orange-500 py-10 px-5 rounded-md flex flex-col items-center content-center justify-center">
-                <h2 className="text-md font-600">{v.name}</h2>
-                <p className="text-base font-300">{v.role}</p>
+              <div className="cursor-pointer space-y-7 text-gray-500 hover:text-gray-900 py-10 px-5 rounded-md flex flex-col items-center content-center justify-center">
+                <img src={v.image} alt={`${v.name}`} className="rounded-full" />
+                <div className="text-center">
+                  <h2 className="text-md font-600">{v.name}</h2>
+                  <p className="text-base font-300">{v.role}</p>
+                </div>
               </div>
             ))}
           </div>

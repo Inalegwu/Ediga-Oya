@@ -1,30 +1,37 @@
 export const TEAM = [
   {
     name: "Ene Okwa",
+    image: "https://placehold.co/250x250/000000/FFF",
     role: "Finance Director",
   },
   {
     name: "Aanawo Okwa",
+    image: "https://placehold.co/250x250/000000/FFF",
     role: "Administrator",
   },
   {
     name: "Igoche Adejo",
+    image: "https://placehold.co/250x250/000000/FFF",
     role: "Head , Human Resources",
   },
   {
     name: "Iyabo E. Okwa",
+    image: "https://placehold.co/250x250/000000/FFF",
     role: "Chief Advisor/Educator",
   },
   {
     name: "Inalegwu Ikwue",
+    image: "https://placehold.co/250x250/000000/FFF",
     role: "Head , ICT",
   },
   {
     name: "Geraldine G. Okwa",
+    image: "https://placehold.co/250x250/000000/FFF",
     role: "Education Advisaor/Educator",
   },
   {
     name: "Inyamuwa Okwa",
+    image: "https://placehold.co/250x250/000000/FFF",
     role: "Founder",
   },
 ];
