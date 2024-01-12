@@ -1,4 +1,6 @@
-export const TEAM = [
+import { Gallery, Partner, Project, Team, Testimony } from "./types";
+
+export const TEAM: Team[] = [
   {
     name: "Ene Okwa",
     image: "https://placehold.co/250x250/000000/FFF",
@@ -36,7 +38,7 @@ export const TEAM = [
   },
 ];
 
-export const TESTIMONIALS = [
+export const TESTIMONIALS: Testimony[] = [
   {
     name: "Gloria Onyanehi Jonathan",
     image: "https://placehold.co/150x150/000000/FFF",
@@ -60,7 +62,7 @@ export const TESTIMONIALS = [
   },
 ];
 
-export const PARTNERS = [
+export const PARTNERS: Partner[] = [
   {
     name: "Rotary International",
     image:
@@ -79,7 +81,7 @@ export const PARTNERS = [
     website: "https://www.portsbridge.services/",
   },
   {
-    name: "CSTEmp Educational Technology",
+    name: "CSTEmp Edutech",
     image: "https://cstempedutech.com/assets/images/resources/logo.png",
     website: "https://cstempedutech.com/",
   },
@@ -91,10 +93,11 @@ export const PARTNERS = [
   {
     name: "Mrs Adesua Esivue",
     image: "https://placehold.co/400x200/000000/FFF",
+    website: "",
   },
 ];
 
-export const GALLERY = [
+export const GALLERY: Gallery[] = [
   {
     name: "1",
     image: "https://placehold.co/1000x500/000000/FFF",
@@ -129,12 +132,7 @@ export const GALLERY = [
   },
 ];
 
-export const PROJECTS: {
-  name: string;
-  description: string;
-  status: "ongoing" | "completed";
-  image: string;
-}[] = [
+export const PROJECTS: Project[] = [
   {
     name: "E&O Memorial Academy",
     description: "",

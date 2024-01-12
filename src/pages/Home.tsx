@@ -68,7 +68,7 @@ export default function Home() {
                 className="inline-flex items-center justify-center space-x-2 px-5 py-3 border border-transparent text-base font-medium rounded-md text-green-700 bg-green-100 hover:bg-green-200"
               >
                 <span className="i-lucide:mail" />
-                <span>Get In Contact</span>
+                <span>Contact Us</span>
               </Link>
             </div>
           </div>
@@ -85,7 +85,8 @@ export default function Home() {
           <p className="mt-2 text-center w-full flex flex-col sm:w-3/4 mx-auto px-4 sm:px-0">
             <span>
               In our first year , we mobilized teachers in the{" "}
-              <span className="text-green-500">Ebologba</span> Area to Begin the{" "}
+              <span className="text-green-500 font-500">Ebologba</span> area to
+              begin the{" "}
             </span>
             <Link to="/projects/eno" className="text-green-500 font-500">
               EandO Memorial Academy
@@ -94,7 +95,7 @@ export default function Home() {
           <div className="mt-6 lg:mt-12 max-w-4xl mx-auto">
             <img
               src="https://placehold.co/1000x600/000000/FFF"
-              alt="library_showcase"
+              alt="EandOMemorial Academy"
               className="max-w-full rounded-md overflow-hidden shadow-2xl"
             />
           </div>
@@ -131,7 +132,7 @@ export default function Home() {
           <div className="mt-6 lg:mt-12 max-w-4xl mx-auto">
             <img
               src="https://placehold.co/1000x600/000000/FFF"
-              alt="library_showcase"
+              alt="Eljay Training Center"
               className="max-w-full rounded-md overflow-hidden shadow-2xl"
             />
           </div>
@@ -144,7 +145,7 @@ export default function Home() {
             </div>
             <div className="px-4 py-4 max-w-80 cursor-pointer bg-orange-50 rounded-md text-orange-500 flex flex-col flex-wrap items-center content-center justify-center space-y-2 text-center">
               <span className="i-lucide:credit-card" />
-              <span>Monetary Prizes were donated by CSTEmp Edutech</span>
+              <span>Monetary prizes were donated by CSTEmp Edutech</span>
             </div>
           </div>
         </div>
@@ -189,11 +190,12 @@ export default function Home() {
               Attendees of our previous programs reached out to tell us how much
               our help mattered to them and it made our days
             </span>{" "}
+            <br />
             <span>so we decided to share</span>
           </p>
-          <div className="w-full px-10 mt-12 py-5 flex items-center content-center justify-center overflow-x-scroll space-x-2">
+          <div className="w-full px-10 mt-12 py-10 flex items-center content-center justify-center overflow-x-scroll space-x-2">
             {TESTIMONIALS.map((v) => (
-              <div className="px-10 py-5  cursor-pointer max-w-200 max-h-80 text-green-700 rounded-md flex flex-col items-center content-center justify-center space-y-1 text-center">
+              <div className="px-10 py-5  cursor-pointer max-w-200 text-gray-700 rounded-lg flex flex-col items-center content-center justify-center space-y-1 text-center">
                 <img src={v.image} alt={v.name} className="rounded-full" />
                 <h2 className="font-bold text-base">{v.name}</h2>
                 <span className="font-500 text-md">{v.benefit}</span>
@@ -210,7 +212,7 @@ export default function Home() {
           </h3>
           <p className="mt-2 text-center w-full sm:w-3/4 mx-auto px-4 sm:px-0 text-base text-gray-500">
             <span>
-              We couldn't possibly achieve all this alone even if we wanted to
+              We couldn't possibly achieve all this alone even if we wanted to.
             </span>{" "}
             <br />
             <span>Here are some of the people who made it possible</span>
@@ -221,7 +223,7 @@ export default function Home() {
                 href={v.website}
                 target="_blank"
                 rel="noreferrer"
-                className="px-10 py-5 cursor-pointer max-w-200 max-h-80 text-green-500 rounded-md flex flex-col items-center content-center justify-center space-y-5"
+                className="px-10 py-5 cursor-pointer max-w-200 max-h-80 text-gray-800 rounded-md flex flex-col items-center content-center justify-center space-y-5"
               >
                 <img src={v.image} alt={v.name} className="max-w-40" />
                 <h2 className="font-bold text-sm">{v.name}</h2>
@@ -235,7 +237,7 @@ export default function Home() {
         <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
           <span className="block">
             If you are interested in supporting our attempt at building the
-            <span className="text-white px-2 bg-green-500 ml-1">future</span>
+            <span className="text-green-500 px-2">future</span>
           </span>
           <div className="inline-flex">
             <Link
@@ -296,7 +298,7 @@ export default function Home() {
             </div>
           </nav>
           <p className="mt-8 text-center text-base text-gray-400">
-            Developed By
+            Built by
             <a
               href="https://github.com/Inalegwu"
               className="text-base text-gray-400 hover:text-gray-900"
@@ -304,16 +306,8 @@ export default function Home() {
               rel="noreferrer"
             >
               {" "}
-              Ikwue Inalegwu
-            </a>{" "}
-            for the{" "}
-            <Link
-              to="/"
-              className="text-base text-gray-400 hover:text-gray-900"
-            >
-              Ediga-Oya Memorial Foundation
-            </Link>
-            .
+              Ikwue Inalegwu.
+            </a>
           </p>
         </div>
       </footer>
