@@ -1,4 +1,18 @@
+@font-face {
+    font-family: Bricolage;
+    src: url("./assets/fonts/bricolage.ttf");
+}
+
+*{
+    font-family: Bricolage;
+    transition: 0.3s ease-in-out;
+}
+
 ::-webkit-scrollbar{
     width: 0;
     background: transparent;
+}
+
+button{
+    outline:none
 }

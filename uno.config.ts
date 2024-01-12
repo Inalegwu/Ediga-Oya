@@ -1,10 +1,4 @@
-import {
-  defineConfig,
-  presetIcons,
-  presetTypography,
-  presetUno,
-  presetWebFonts,
-} from "unocss";
+import { defineConfig, presetIcons, presetTypography, presetUno } from "unocss";
 
 export default defineConfig({
   presets: [
@@ -16,12 +10,5 @@ export default defineConfig({
       },
     }),
     presetTypography(),
-    presetWebFonts({
-      provider: "google",
-      fonts: {
-        rubik: "Rubik",
-        grotesque: "Bricolage Grotesque",
-      },
-    }),
   ],
 });

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-export default function Donors() {
+export default function Projects() {
   return (
     <main className="w-full h-screen">
       <header className="w-full bg-gradient-to-b from-green-50 to-white">
@@ -48,12 +48,12 @@ export default function Donors() {
             </div>
           </nav>
         </div>
-        <div className="mt-12 flex flex-col items-center">
+        <div className="mt-12 flex flex-col items-center space-y-2">
           <h1 className="text-4xl font-bold text-center mt-2 text-green-500">
-            Donors
+            Projects
           </h1>
           <h2 className="text-2xl font-medium text-center mt-1 space-y-1">
-            Thanks for deciding you want to help with our efforts
+            Some of the Projects we've started and completed since our inception
           </h2>
         </div>
       </header>
