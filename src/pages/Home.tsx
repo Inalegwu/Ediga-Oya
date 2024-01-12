@@ -125,7 +125,10 @@ export default function Home() {
             <span>
               The birth of the Ediga-Oya Skills Initiative was born shortly
               after aimed at teaching skills , reskilling and upskilling labour
-              in the <span className="text-green-500 font-bold">Otukpo</span>{" "}
+              in the{" "}
+              <span className="text-green-500 font-bold">
+                Egologba and Otukpo
+              </span>{" "}
               area
             </span>
           </p>
