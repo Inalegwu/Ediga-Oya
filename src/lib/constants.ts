@@ -115,3 +115,17 @@ export const GALLERY = [
     image: "https://placehold.co/300x500/000000/FFF",
   },
 ];
+
+export const PROJECTS: {
+  name: string;
+  description: string;
+  status: "ongoing" | "completed";
+  image:string
+}[] = [
+  {
+    name: "E&O Memorial Academy",
+    description: "",
+    status: "ongoing",
+      image: "https://placehold.co/1000x600/000000/FFF",
+  },
+];

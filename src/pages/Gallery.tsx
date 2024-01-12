@@ -62,7 +62,7 @@ export default function Gallery() {
       <div className=" mx-auto px-4 py-20 sm:px-0" id="photos">
         <div className="mt-12 flex items-center content-center justify-center flex-wrap space-x-2 space-y-4">
           {GALLERY.map((v) => (
-            <div className="flex flex-col items-center content-center justify-center space-y-1">
+            <div className="flex flex-col items-center content-center justify-center space-y-1 text-2xl text-gray-500 hover:text-gray-900 cursor-pointer">
               <img
                 src={v.image}
                 alt={v.name}
