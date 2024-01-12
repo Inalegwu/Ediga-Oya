@@ -217,9 +217,15 @@ export default function Home() {
           </p>
           <div className="w-full mt-6 px-10 py-5 flex space-y-4 flex-wrap items-center content-center justify-center space-x-2">
             {PARTNERS.map((v) => (
-              <div className="px-10 py-5 bg-orange-50 hover:bg-orange-100 cursor-pointer max-w-200 max-h-80 text-orange-500 rounded-md flex flex-col items-center content-center justify-center space-y-1">
+              <a
+                href={v.website}
+                target="_blank"
+                rel="noreferrer"
+                className="px-10 py-5 cursor-pointer max-w-200 max-h-80 text-green-500 rounded-md flex flex-col items-center content-center justify-center space-y-5"
+              >
+                <img src={v.image} alt={v.name} className="max-w-40" />
                 <h2 className="font-bold text-sm">{v.name}</h2>
-              </div>
+              </a>
             ))}
           </div>
         </div>

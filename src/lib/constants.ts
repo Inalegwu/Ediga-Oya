@@ -63,21 +63,34 @@ export const TESTIMONIALS = [
 export const PARTNERS = [
   {
     name: "Rotary International",
+    image:
+      "https://www.rotary.org/sites/all/themes/rotary_rotaryorg/images/rotary-logo-color-2019-simplified.svg",
+    website: "https://www.rotary.org/en",
   },
   {
     name: "Chronicles Software Development Company",
+    image: "http://www.chroniclesoft.com/logo.png",
+    website: "http://www.chroniclesoft.com/",
   },
   {
     name: "Portsbridge Educational Services Ltd",
+    image:
+      "https://www.portsbridge.services/wp-content/uploads/2023/02/logo.jpg",
+    website: "https://www.portsbridge.services/",
   },
   {
     name: "CSTEmp Educational Technology",
+    image: "https://cstempedutech.com/assets/images/resources/logo.png",
+    website: "https://cstempedutech.com/",
   },
   {
     name: "Cluster4Kidz",
+    image: "https://placehold.co/400x200/000000/FFF",
+    website: "",
   },
   {
     name: "Mrs Adesua Esivue",
+    image: "https://placehold.co/400x200/000000/FFF",
   },
 ];
 
@@ -120,12 +133,12 @@ export const PROJECTS: {
   name: string;
   description: string;
   status: "ongoing" | "completed";
-  image:string
+  image: string;
 }[] = [
   {
     name: "E&O Memorial Academy",
     description: "",
     status: "ongoing",
-      image: "https://placehold.co/1000x600/000000/FFF",
+    image: "https://placehold.co/1000x600/000000/FFF",
   },
 ];
