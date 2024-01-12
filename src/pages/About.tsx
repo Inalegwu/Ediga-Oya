@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { TEAM } from "../lib/constants";
 
 export default function About() {
   return (
@@ -72,6 +73,14 @@ export default function About() {
               "Igoche - 'Surrounded by People' "
             </span>
           </p>
+          <div className="mt-6 lg:mt-12 max-w-4xl mx-auto flex items-center content-center justify-center flex-wrap space-x-2 space-y-4">
+            {TEAM.map((v) => (
+              <div className="bg-orange-50 cursor-pointer text-orange-500 py-10 px-5 rounded-md flex flex-col items-center content-center justify-center">
+                <h2 className="text-md font-600">{v.name}</h2>
+                <p className="text-base font-300">{v.role}</p>
+              </div>
+            ))}
+          </div>
         </div>
         {/* what */}
         <div className="py-10 lg:py-20">
