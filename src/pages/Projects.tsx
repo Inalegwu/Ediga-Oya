@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { GALLERY } from "../lib/constants";
 
 export default function Projects() {
   return (
@@ -57,6 +58,21 @@ export default function Projects() {
           </h2>
         </div>
       </header>
+      {/* images */}
+      <div className=" mx-auto px-4 py-20 sm:px-0" id="photos">
+        <div className="mt-12 flex items-center content-center justify-center flex-wrap space-x-2 space-y-4">
+          {GALLERY.map((v) => (
+            <div className="flex flex-col items-center content-center justify-center space-y-1">
+              <img
+                src={v.image}
+                alt={v.name}
+                className="rounded-lg shadow-lg"
+              />
+              <h2>{v.name}</h2>
+            </div>
+          ))}
+        </div>
+      </div>
     </main>
   );
 }
