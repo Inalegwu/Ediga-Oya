@@ -158,7 +158,7 @@ export default function Home() {
             <span className="i-lucide:glasses text-green-500" />
             <span>The Story Behind Ediga-Oya Memorial</span>
           </h3>
-          <div className="mt-6 lg:mt-8 lg:w-2/4 text-md leading-relaxed lg:mx-auto w-prose text-gray-500 space-y-1">
+          <div className="mt-6 lg:mt-8 lg:w-2/4 text-md leading-relaxed lg:mx-auto w-prose max-w-prose text-gray-500 space-y-1">
             <p>
               It had always been a dream and pet project of the Late Major Ediga
               Okwa and his wife Late Mrs. Oya Okwa , a humble and generous
@@ -234,24 +234,6 @@ export default function Home() {
             ))}
           </div>
         </div>
-      </div>
-      {/* donor c2a */}
-      <div className="mx-auto text-center py-12 px-4 lg:py-32">
-        <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-          <span className="block">
-            If you are interested in supporting our attempt at building the
-            <span className="text-green-500 px-2">future</span>
-          </span>
-          <div className="inline-flex">
-            <Link
-              to="/donors"
-              className=" mt-4 inline-flex items-center justify-center space-x-2 px-5 py-3 border border-transparent text-base font-medium rounded-md text-green-700 bg-green-100 hover:bg-green-200"
-            >
-              <span className="i-lucide:mail" />
-              <span>Contact Us</span>
-            </Link>
-          </div>
-        </h2>
       </div>
       <footer className="mt-12">
         <div className="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
