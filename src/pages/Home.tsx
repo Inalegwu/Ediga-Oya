@@ -1,4 +1,6 @@
+import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import logo from "../assets/images/logo.png";
 import { PARTNERS, TESTIMONIALS } from "../lib/constants";
 
 export default function Home() {
@@ -50,6 +52,7 @@ export default function Home() {
             </div>
           </nav>
           <div className="mt-12 flex flex-col items-center">
+          <motion.img initial={{opacity:0,scale:0}} animate={{scale:1.5,opacity:1}} src={logo} className="mt-6 mb-12 w-20 h-20"/>
             <h1 className="text-4xl font-bold text-center mt-2">
               Ediga-Oya Rays of Hope Foundation
             </h1>
